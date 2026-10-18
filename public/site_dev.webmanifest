@@ -1,9 +1,8 @@
 {
-    "name": "Telegram Web Beta",
-    "short_name": "Telegram Web Beta",
-    "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+    "name": "Anyone",
+    "short_name": "Anyone",
+    "description": "Anyone — a place for your conversations.",
     "start_url": "./",
-    "gcm_sender_id": "122867383838",
     "icons": [
         {
             "src": "icon-dev-192x192.png",
