@@ -1,0 +1,10 @@
+{
+  "name": "anyone-api",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-18",
+  "workers_dev": true,
+  "vars": { "APP_ORIGIN": "http://localhost:1234" },
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "anyone-media" }],
+  "durable_objects": { "bindings": [{ "name": "EVENTS", "class_name": "UserEvents" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["UserEvents"] }]
+}
